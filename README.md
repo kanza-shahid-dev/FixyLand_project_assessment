@@ -27,7 +27,6 @@ git clone [project-link]
 ## Starting Backend/server
 ```
 cd backend
-
 ```
 2️⃣ Install dependencies
 ```
@@ -42,7 +41,6 @@ npm run dev
 ## Starting Frontend
 ```
 cd frontend
-
 ```
 2️⃣ Install dependencies
 ```
