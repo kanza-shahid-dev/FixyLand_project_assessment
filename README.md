@@ -1,0 +1,57 @@
+# 🏝️ Fixyland
+
+**Fixyland** is a modern, responsive web application built with **React**, **Vite**, and **Tailwind CSS**.  
+
+---
+
+## 🚀 Features
+
+- ⚡ Built with **React + Vite** for ultra-fast development
+- 🎨 Styled using **Tailwind CSS** and **custom theme variables**
+- 🧩 Reusable components (`Header`, `Hero`, `Footer`, etc.)
+- 💡 Booking Page: From where you can book your hotel
+- 🌍 **React Router DOM** for page navigation
+- 📱 Fully responsive and mobile-friendly design
+- 💬 About Us: Information about hotels
+- 🖼️ Video: iframe video added
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone [project-link]
+```
+## Starting Backend/server
+```
+cd backend
+```
+2️⃣ Install dependencies
+```
+npm install
+```
+
+3️⃣ Run the development server
+```
+npm run dev
+```
+
+## Starting Frontend
+```
+cd frontend
+```
+2️⃣ Install dependencies
+```
+npm install
+```
+
+3️⃣ Run the development server
+```
+npm run dev
+```
+
+Then open your browser and visit:
+👉 http://localhost:5173
+
