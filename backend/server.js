@@ -31,6 +31,14 @@ app.use("/api/staff", staffRoute);
 app.use("/api/hotels", hotelRoute);
 app.use("/api/appointments", appointmentRoute);
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../frontend/dist")));
+
+  app.use((req, res) => {
+    res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
+  });
+}
+
 app.listen(PORT, () => {
   ConnectDB();
   console.log("started", PORT);

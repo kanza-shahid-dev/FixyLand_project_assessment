@@ -23,14 +23,14 @@ export const Header = () => {
       </nav>
 
       <div className="space-x-3">
-        <Button
-          variant="secondary"
-          className="bg-[#e5c466] text-black hover:bg-[#e0b90d]"
-        >
-          <Link to="/booking" className="flex items-center gap-2">
+        <Link to="/booking" className="flex items-center gap-2">
+          <Button
+            variant="secondary"
+            className="bg-[#e5c466] text-black hover:bg-[#e0b90d]"
+          >
             Book Your Stay <ArrowUpRight size={16} />
-          </Link>
-        </Button>
+          </Button>
+        </Link>
       </div>
     </header>
   );
