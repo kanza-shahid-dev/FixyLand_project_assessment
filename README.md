@@ -24,34 +24,22 @@
 ```bash
 git clone [project-link]
 ```
-## Starting Backend/server
-```
-cd backend
-```
+
 2️⃣ Install dependencies
 ```
 npm install
 ```
 
-3️⃣ Run the development server
+3️⃣ Building project
 ```
-npm run dev
-```
-
-## Starting Frontend
-```
-cd frontend
-```
-2️⃣ Install dependencies
-```
-npm install
+npm run build
 ```
 
-3️⃣ Run the development server
+## Starting Project
 ```
-npm run dev
+npm start
 ```
 
 Then open your browser and visit:
-👉 http://localhost:5173
+👉 http://localhost:5000
 
